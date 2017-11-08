@@ -1,4 +1,5 @@
 const Koa = require('koa');
+// koa-compose模块可以将多个中间件合成为一个
 const compose = require('koa-compose');
 const app = new Koa();
 
